@@ -1,17 +1,52 @@
-# DRIP
+# DRIP 👕 
 
-Loja streetwear fictícia simples criada pra praticar JS puro, manipulação do DOM, eventos, arrays, localStorage, funções, e simulação de uma API com dados vindos de um backend fake.
+Loja streetwear fictícia desenvolvida para praticar JavaScript puro, manipulação do DOM, eventos, arrays, funções, `localStorage` e consumo de uma API simulada com um backend fake.
 
-## Como funciona
+## 🚀 Como executar o projeto
 
-O projeto simula uma API real: o arquivo `db.json` funciona como banco de dados com os produtos, e o `api.js` expõe funções para buscar esses dados, imitando o que seria uma requisição a um servidor.
+### 1. Clone o repositório
 
-O `script.js` consome essa "API" (npm start na terminal git bash) e renderiza os produtos dinamicamente no DOM, sem nenhum dado fixo no HTML.
+```bash
+git clone <URL_DO_REPOSITORIO>
+```
 
-## Desenvolvimento
+### 2. Entre na pasta do projeto
 
-HTML e CSS foi feito pelo [claude.ai](https://claude.ai)
+```bash
+cd Loja-streetwear
+```
 
-## Link
+### 3. Instale as dependências do backend
 
-[loja-streetwear-ruby.vercel.app](https://loja-streetwear-ruby.vercel.app/)
+```bash
+cd simulando-backend
+npm install
+```
+
+### 4. Inicie o servidor
+
+```bash
+npm start
+```
+
+Com o servidor iniciado, mantenha esse terminal aberto para que a API continue funcionando.
+
+### 5. Abra a loja
+
+Abra o arquivo `index.html` no navegador ou utilize a extensão Live Server do VS Code para executar o front-end.
+
+## ⚙️ Como funciona
+
+O projeto simula o funcionamento de uma API utilizando um backend fake. O arquivo `db.json` armazena os dados dos produtos, enquanto o `api.js` disponibiliza funções para buscar essas informações, simulando requisições a um servidor.
+
+O `script.js` consome essa API e renderiza os produtos dinamicamente no DOM, sem manter os dados dos produtos fixos no HTML.
+
+## 🛠️ Tecnologias e conceitos
+
+- HTML5
+- CSS3
+- JavaScript puro (Vanilla JS)
+- Manipulação do DOM e eventos
+- Arrays e funções
+- `localStorage`
+- Backend fake para simulação de API
